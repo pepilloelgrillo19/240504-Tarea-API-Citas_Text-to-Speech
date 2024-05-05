@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import AVFoundation
 
 final class DatosViewModel:ObservableObject {
     @Published var datos:Datos?
+    @Published private var isPlaying = false
+    let speechSynthesizer = AVSpeechSynthesizer()
     
     private func llamarUrlPrivada() {
         guard let url = URL(string: "https://api.quotable.io/random") else{return}
@@ -33,5 +36,18 @@ final class DatosViewModel:ObservableObject {
     //Como la función es privada, creo esta variable para poder llamarla desde fuera
     func llamaUrl(){
         llamarUrlPrivada()
+    }
+    
+    private func playText(texto : String) {
+               let utterance = AVSpeechUtterance(string: texto)
+     
+                let voice = AVSpeechSynthesisVoice(identifier: "com.apple.ttsbundle.Daniel-compact")
+                utterance.voice = voice
+            
+               speechSynthesizer.speak(utterance)
+           }
+    
+    func leerTexto (texto: String){
+        playText(texto: texto)
     }
 }
