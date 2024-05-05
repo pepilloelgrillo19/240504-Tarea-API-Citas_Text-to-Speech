@@ -14,6 +14,8 @@
 		A0895D182BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0895D172BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasTests.swift */; };
 		A0895D222BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0895D212BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITests.swift */; };
 		A0895D242BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0895D232BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITestsLaunchTests.swift */; };
+		A0895D312BE6A91700FD95F8 /* DatosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0895D302BE6A91700FD95F8 /* DatosModel.swift */; };
+		A0895D332BE6AA3200FD95F8 /* DatosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0895D322BE6AA3200FD95F8 /* DatosViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A0895D1D2BE6A7FF00FD95F8 /* 240504 Tarea API CitasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "240504 Tarea API CitasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0895D212BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _40504_Tarea_API_CitasUITests.swift; sourceTree = "<group>"; };
 		A0895D232BE6A7FF00FD95F8 /* _40504_Tarea_API_CitasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _40504_Tarea_API_CitasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0895D302BE6A91700FD95F8 /* DatosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosModel.swift; sourceTree = "<group>"; };
+		A0895D322BE6AA3200FD95F8 /* DatosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				A0895D062BE6A7FD00FD95F8 /* _40504_Tarea_API_CitasApp.swift */,
 				A0895D082BE6A7FD00FD95F8 /* ContentView.swift */,
+				A0895D322BE6AA3200FD95F8 /* DatosViewModel.swift */,
+				A0895D302BE6A91700FD95F8 /* DatosModel.swift */,
 				A0895D0A2BE6A7FF00FD95F8 /* Assets.xcassets */,
 				A0895D0C2BE6A7FF00FD95F8 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0895D092BE6A7FD00FD95F8 /* ContentView.swift in Sources */,
+				A0895D312BE6A91700FD95F8 /* DatosModel.swift in Sources */,
+				A0895D332BE6AA3200FD95F8 /* DatosViewModel.swift in Sources */,
 				A0895D072BE6A7FD00FD95F8 /* _40504_Tarea_API_CitasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
